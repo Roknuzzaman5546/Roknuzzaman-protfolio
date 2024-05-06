@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 
 const MainLayout = () => {
     return (
-        <div className="flex gap-[2px] overflow-y-scroll">
+        <div className="flex gap-[4px] overflow-y-scroll">
             <div className=" w-[180px] bg-[#222222]">
                 <Navbar></Navbar>
             </div>
