@@ -8,7 +8,6 @@ import {
 import MainLayout from './Components/MainLayout/MainLayout';
 import About from './Components/Pages/About/About';
 import Services from './Components/Pages/Resume/Resume';
-import Timeline from './Components/Pages/Timeline/Timeline';
 import Contact from './Components/Pages/Contact/Contact';
 import Skills from './Components/Pages/Skills/Skills';
 import Projects from './Components/Pages/Projects/Projects';
@@ -25,10 +24,6 @@ const router = createBrowserRouter([
       {
         path: '/services',
         element: <Services></Services>
-      },
-      {
-        path: "/timeline",
-        element: <Timeline></Timeline>
       },
       {
         path: "/contact",

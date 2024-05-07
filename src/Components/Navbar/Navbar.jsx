@@ -21,8 +21,6 @@ const Navbar = () => {
 
                     <NavLink to="/projects" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Projects</NavLink>
 
-                    <NavLink to="/timeline" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Timeline </NavLink>
-
                     <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Contact</NavLink>
                 </ul>
                 {/* Social link and copyright section */}

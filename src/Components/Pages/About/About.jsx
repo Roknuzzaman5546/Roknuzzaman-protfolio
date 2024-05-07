@@ -19,6 +19,7 @@ const About = () => {
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
+            className='overflow-y-auto chatScroll'
         >
             {/* about banner section */}
             <div className=" flex flex-col md:flex-row h-full w-full">
