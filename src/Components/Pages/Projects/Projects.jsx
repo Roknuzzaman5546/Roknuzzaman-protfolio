@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import './Project.css'
+import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const Projects = () => {
+    const { scrollProject } = useContext(AuthContext)
     const [project, setProject] = useState()
     // console.log(project);
 
@@ -29,7 +31,9 @@ const Projects = () => {
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
-            className=' p-5 md:p-10 min-h-screen'>
+            className=' p-5 md:p-10 min-h-screen'
+            ref={scrollProject}
+        >
             {/* services header section */}
             <h2 className='text-3xl font-bold border-b-[4px] border-[#ff714a] px-2 pb-2 text-white'>My Portfolio</h2>
             <h4 className=" text-right text-[#aaaa] text-xl mt-1">My Projects</h4>
@@ -52,8 +56,8 @@ const Projects = () => {
                                             <h1 className=' text-xl font-bold text-[#aaaa] text-white'>{item?.title}</h1>
                                         </div>
                                         {/* details section */}
-                                        <button className="button-project" onClick={() => document.getElementById('my_modal_3').showModal()}>details</button>
-                                        <dialog id="my_modal_3" className="modal">
+                                        <button className="button-project" onClick={() => document.getElementById(item._id).showModal()}>details</button>
+                                        <dialog id={item._id} className="modal">
                                             <div className="modal-box w-[70%] max-w-5xl">
                                                 <form method="dialog">
                                                     {/* if there is a button in form, it will close the modal */}
@@ -73,7 +77,7 @@ const Projects = () => {
                                             </div>
                                         </dialog>
                                     </div>
-                                    <p className='w-[300px] text-[#aaaa] text-xs'>{item?.description}</p>
+                                    <p className='w-[400px] text-[#aaaa] text-xs'>{item?.description}</p>
                                 </div>
                             </div>
                         </div>
@@ -85,3 +89,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

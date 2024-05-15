@@ -1,8 +1,14 @@
 import { NavLink } from "react-router-dom";
 import './Navbar.css'
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { useContext } from "react";
+import { AuthContext } from "../AuthProvider/AuthProvider";
 
 const Navbar = () => {
+    const { handleScrollAbout,
+        handleScrollProject,
+        handleScrollContact, } = useContext(AuthContext)
+
     return (
         <div className=" w-full min-h-screen flex flex-col justify-between py-[30px]">
             {/* navbar profile section */}
@@ -13,13 +19,24 @@ const Navbar = () => {
             <div>
                 {/* menu section */}
                 <ul className=" text-center w-full flex flex-col">
-                    <NavLink to="/" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>About</NavLink>
+                    <NavLink
+                        onClick={handleScrollAbout}
+                        to="/"
+                        className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>About</NavLink>
 
-                    <NavLink to="/services" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Resume</NavLink>
+                    <NavLink
+                        onClick={handleScrollContact}
+                        to="/services"
+                        className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Resume</NavLink>
 
-                    <NavLink to="/skills" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Skills</NavLink>
+                    <NavLink
+                        to="/skills"
+                        className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Skills</NavLink>
 
-                    <NavLink to="/projects" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Projects</NavLink>
+                    <NavLink
+                        onClick={handleScrollProject}
+                        to="/projects"
+                        className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Projects</NavLink>
 
                     <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[10px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[10px] font-serif active:bg-[#333333] li"}>Contact</NavLink>
                 </ul>

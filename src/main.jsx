@@ -11,6 +11,7 @@ import Services from './Components/Pages/Resume/Resume';
 import Contact from './Components/Pages/Contact/Contact';
 import Skills from './Components/Pages/Skills/Skills';
 import Projects from './Components/Pages/Projects/Projects';
+import AuthProvider from './Components/AuthProvider/AuthProvider';
 
 const router = createBrowserRouter([
   {
@@ -43,8 +44,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className=' bg-black'>
-      <RouterProvider router={router} />
-    </div>
+    <AuthProvider>
+      <div className=' bg-black'>
+        <RouterProvider router={router} />
+      </div>
+    </AuthProvider>
   </React.StrictMode>,
 )

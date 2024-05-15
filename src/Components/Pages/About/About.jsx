@@ -15,11 +15,12 @@ const About = () => {
         });
     }, []);
 
+
+
     return (
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
-            className='overflow-y-auto chatScroll'
         >
             {/* about banner section */}
             <div className=" flex flex-col md:flex-row h-full w-full">
@@ -41,7 +42,7 @@ const About = () => {
             {/* client and what i do section */}
             <div className=' p-[40px] md:p-[80px]'>
                 <h1 className=' text-2xl font-bold inline-block border-b-[4px] border-[#ff714a] px-2'>What i do</h1>
-                <div data-aos="flip-up" className=' mt-4'>
+                <div className=' mt-4'>
                     <div className=' grid grid-cols-1 md:grid-clos-2 lg:grid-cols-3 gap-6'>
                         <div className=' flex flex-col text-center items-center space-y-2'>
                             <img className=' h-40 rounded-sm mt-2' src={frontEndImg} alt="" />
