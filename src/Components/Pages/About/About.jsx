@@ -32,7 +32,7 @@ const About = () => {
                     <div className=" table-cell align-middle">
                         <p className=" text-[#aaa]">Mern stack web Developer</p>
                         <h2 className=" text-5xl font-bold text-white my-4">Roknuzzaman sajib</h2>
-                        <p className=" text-[#d5d5d5] leading-loose">👋 Hi there! I'm Roknuzzaman,
+                        <p className=" text-[#d5d5d5] leading-loose">👋
                             "Hello, I'm Roknuzzaman, a seasoned MERN stack developer passionate about crafting elegant solutions. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building responsive web applications that scale seamlessly. My experience in designing full-stack architectures for diverse needs ensures quality deliverables, on time. Let's collaborate on challenging projects and transform ideas into robust, user-focused solutions."💻✨</p>
                         <button className="button-orange hover:bg-[#ff714a] mt-3 text-white font-serif hover:text-black text-xl">
                             <Link to='/contact'>contact</Link>
