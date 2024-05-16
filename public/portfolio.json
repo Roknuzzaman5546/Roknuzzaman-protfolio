@@ -344,7 +344,7 @@
     ],
     "projects": [
       {
-        "liveurl": "https://rentify-70183.web.app/",
+        "liveUrl": "https://rentify-70183.web.app/",
         "githubClient": "https://github.com/Anirat04/Rentify-client",
         "githubServer": "https://github.com/Anirat04/Rentify-server",
         "title": "Rentify",
@@ -356,7 +356,7 @@
         "description": "1.Led and managed a team of developers throughout the project lifecycle, ensuring timely delivery and adherence to project requirements.. 2.Directed the development of key features such as Property Request Feature, optimizing website responsiveness and enhancing user experience. 3.Collaborated with team members to resolve technical challenges and streamline project development.",
         "techStack": [
           " TailwindCSS ",
-          "Reactjs ",
+          "ReactJs ",
           "JavaScript",
           " Mern ",
           " CSS"
@@ -365,7 +365,7 @@
         "enabled": true
       },
       {
-        "liveurl": "https://travel-guru-71001.web.app",
+        "liveUrl": "https://travel-guru-71001.web.app",
         "githubClient": "https://github.com/Roknuzzaman5546/travel-guru-clint",
         "githubServer": "https://github.com/Roknuzzaman5546/travel-guru-server",
         "title": "Travel guru",
@@ -377,7 +377,7 @@
         "description": "1.A user can first choice a hotel or place and add her choice list and then he/she going to her dashbord and navigate choice list then he/she see her choice place and book.Then he/she can payment her all choice all products.after succesfully her payment this place or hotel have boking for her. 2.Another role is admin.A admin can control whole website and menage all place and hotel. Aadmin can add hotel or place",
         "techStack": [
           " TailwindCSS",
-          " Reactjs",
+          " ReactJs",
           " javascript",
           " Mern ",
           " CSS ",
@@ -387,7 +387,50 @@
         "enabled": true
       },
       {
-        "liveurl": "https://assingment12-projects-clilnt.web.app",
+        "liveUrl": "https://another-firebase-projects.web.app",
+        "githubClient": "https://github.com/Roknuzzaman5546/food-drive-clint",
+        "githubServer": "https://github.com/Roknuzzaman5546/food-drive-server",
+        "title": "Food Drive",
+        "sequence": 4,
+        "image": {
+          "public_id": "1706284824843-56iakg",
+          "url": "https://i.ibb.co/7vJJGYT/Screenshot-386.png"
+        },
+        "description": "This is the platform where individuals can donate surplus food, which is then made available for anyone in need to take for free. Our mission is to ensure that no one goes hungry while also minimizing food waste. Through this platform, we aim to facilitate a seamless process of food donation and distribution, creating a community-driven solution to combat hunger and promote sustainability. Join us in our efforts to make a positive impact on both individuals and the environment.",
+        "techStack": [
+          " TailwindCSS",
+          " ReactJs",
+          " javascript",
+          " Mern ",
+          " CSS ",
+          " TailwindCSS"
+        ],
+        "_id": "65b3d719313a9b09a24a148f",
+        "enabled": true
+      },
+      {
+        "liveUrl": "https://fir-assignment-projects.web.app/",
+        "githubCode": "https://github.com/Roknuzzaman5546/Black-brain-projects",
+        "title": "Black-brain",
+        "sequence": 4,
+        "image": {
+          "public_id": "1706284824843-56iakg",
+          "url": "https://i.ibb.co/c8hFJ6v/Screenshot-150.png"
+        },
+        "description": "This is an entertainment website, it has 3 menu bars on the homepage, a home page, about and book, all the bands and artists on our site, and where the events are held. And by clicking on band card details. Everything about the band can be seen. And from there you can book your favorite band or artist. But for that, you must open an account on our site. Then you can book by going to About and Booking Options.You can also login directly from your Google account if you want.",
+        "techStack": [
+          " TailwindCSS",
+          " ReactJs",
+          " javascript",
+          " Mern ",
+          " CSS ",
+          " TailwindCSS"
+        ],
+        "_id": "65b3d719313a9b09a24a148f",
+        "enabled": true
+      },
+      {
+        "liveUrl": "https://assingment12-projects-clilnt.web.app",
         "githubClient": "https://github.com/Roknuzzaman5546/IT-tech-bd-clint",
         "githubServer": "https://github.com/Roknuzzaman5546/IT-tech-bd-server",
         "title": "IT-Tech",
@@ -399,51 +442,7 @@
         "description": "1.This Project Summer online course Related Website.This Website Three based role Admin, teacher and Student2.Admin menage all student & user and make any student Admin or teacher.teacher add any class and menage class. 3.In this website I added Payment Method.Student any class booked and enrolled btn click this class enrolled successfully",
         "techStack": [
           " TailwindCSS",
-          " Reactjs",
-          " javascript",
-          " Mern ",
-          " CSS ",
-          " TailwindCSS"
-        ],
-        "_id": "65b3d719313a9b09a24a148f",
-        "enabled": true
-      },
-      {
-        "liveurl": "https://another-firebase-projects.web.app/#slide3",
-        "githubClient": "https://github.com/Porgramming-Hero-web-course/b8a11-client-side-Roknuzzaman5546",
-        "githubServer": " https://github.com/Porgramming-Hero-web-course/b8a11-server-side-Roknuzzaman5546",
-        "title": "Food Drive",
-        "sequence": 4,
-        "image": {
-          "public_id": "1706284824843-56iakg",
-          "url": "https://i.ibb.co/7vJJGYT/Screenshot-386.png"
-        },
-        "description": "This is the platform where individuals can donate surplus food, which is then made available for anyone in need to take for free. Our mission is to ensure that no one goes hungry while also minimizing food waste. Through this platform, we aim to facilitate a seamless process of food donation and distribution, creating a community-driven solution to combat hunger and promote sustainability. Join us in our efforts to make a positive impact on both individuals and the environment.",
-        "techStack": [
-          " TailwindCSS",
-          " Reactjs",
-          " javascript",
-          " Mern ",
-          " CSS ",
-          " TailwindCSS"
-        ],
-        "_id": "65b3d719313a9b09a24a148f",
-        "enabled": true
-      },
-      {
-        "liveurl": "https://another-firebase-projects.web.app/#slide3",
-        "githubClient": "https://github.com/Porgramming-Hero-web-course/b8a11-client-side-Roknuzzaman5546",
-        "githubServer": " https://github.com/Porgramming-Hero-web-course/b8a11-server-side-Roknuzzaman5546",
-        "title": "Food Drive",
-        "sequence": 4,
-        "image": {
-          "public_id": "1706284824843-56iakg",
-          "url": "https://i.ibb.co/7vJJGYT/Screenshot-386.png"
-        },
-        "description": "This is the platform where individuals can donate surplus food, which is then made available for anyone in need to take for free. Our mission is to ensure that no one goes hungry while also minimizing food waste. Through this platform, we aim to facilitate a seamless process of food donation and distribution, creating a community-driven solution to combat hunger and promote sustainability. Join us in our efforts to make a positive impact on both individuals and the environment.",
-        "techStack": [
-          " TailwindCSS",
-          " Reactjs",
+          " ReactJs",
           " javascript",
           " Mern ",
           " CSS ",

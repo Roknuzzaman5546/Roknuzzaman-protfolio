@@ -50,34 +50,25 @@ const Projects = () => {
                                 </div>
                                 {/* img details */}
                                 <div className="rounded-b-md p-4 project-shadow">
-                                    <div className=" flex justify-between items-center">
-                                        <div>
+                                    <div className=" flex justify-between items-center gap-2">
+                                        <div className=" w-[80%]">
                                             <p className=" text-xs text-[#aaaa]">{item?.techStack}</p>
                                             <h1 className=' text-xl font-bold text-[#aaaa] text-white'>{item?.title}</h1>
+                                            <p className=' text-[#aaaa] text-xs'>{item?.description}</p>
                                         </div>
                                         {/* details section */}
-                                        <button className="button-project" onClick={() => document.getElementById(item._id).showModal()}>details</button>
-                                        <dialog id={item._id} className="modal">
-                                            <div className="modal-box w-[70%] max-w-5xl">
-                                                <form method="dialog">
-                                                    {/* if there is a button in form, it will close the modal */}
-                                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                                                </form>
-                                                <div className=" flex items-center gap-5">
-                                                    <img className=" h-full w-[50%]" src={item?.image?.url} alt="" />
-                                                    <div className=" flex flex-col items-start justify-around gap-2">
-                                                        <h3 className="text-3xl w-[50%] font-bold text-white">{item?.title}</h3>
-                                                        <p className="text-xs text-[#aaaa]">{item?.techStack}</p>
-                                                        <div className=" flex justify-between items-center gap-5 mt-3">
-                                                            <button className=" button-orange hover:text-black hover:bg-[#ff714a] p-1"><a href={item?.liveurl}>Live url</a></button>
-                                                            <button className=" button-orange hover:text-black hover:bg-[#ff714a] p-1"><a href={item.githuburl}>Github</a></button>
-                                                        </div>
-                                                    </div>
+                                        <div className=" w-[20%] flex flex-col items-center gap-2">
+                                            <button className="button-project"> <a target="blank" href={item?.liveUrl}>Live site</a></button>
+                                            {item.githubServer ?
+                                                <div className="flex flex-col items-center gap-2">
+                                                    <button className="button-project"> <a target="blank" href={item?.githubClient}>Client</a></button>
+                                                    <button className="button-project"> <a target="blank" href={item?.githubServer}>Server</a></button>
                                                 </div>
-                                            </div>
-                                        </dialog>
+                                                :
+                                                <button className="button-project"> <a target="blank" href={item?.githubCode}>Code</a></button>
+                                            }
+                                        </div>
                                     </div>
-                                    <p className='w-[400px] text-[#aaaa] text-xs'>{item?.description}</p>
                                 </div>
                             </div>
                         </div>

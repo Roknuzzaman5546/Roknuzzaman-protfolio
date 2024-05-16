@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import './About.css'
+import { Link } from 'react-router-dom';
 
 const About = () => {
     useEffect(() => {
@@ -34,7 +35,7 @@ const About = () => {
                         <p className=" text-[#d5d5d5] leading-loose">👋 Hi there! I'm Roknuzzaman,
                             "Hello, I'm Roknuzzaman, a seasoned MERN stack developer passionate about crafting elegant solutions. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building responsive web applications that scale seamlessly. My experience in designing full-stack architectures for diverse needs ensures quality deliverables, on time. Let's collaborate on challenging projects and transform ideas into robust, user-focused solutions."💻✨</p>
                         <button className="button-orange hover:bg-[#ff714a] mt-3 text-white font-serif hover:text-black text-xl">
-                            contact
+                            <Link to='/contact'>contact</Link>
                         </button>
                     </div>
                 </div>
