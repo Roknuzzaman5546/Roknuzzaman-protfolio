@@ -47,10 +47,11 @@ const Contact = () => {
                         <input className='bg-[#222222] py-2 pl-2 border border-[#aaaa]' placeholder='Your subject' type="text" name="" id="" />
                     </div>
                     <div className=' w-full md:w-[50%]'>
-                        <textarea name="Message" className=' bg-[#222222] border border-[#aaaa]' id="" cols="50" rows="6.5"></textarea>
+                        <textarea name="Message" className=' hidden md:flex bg-[#222222] border border-[#aaaa]' id="" cols="50" rows="6.5"></textarea>
+                        <textarea name="Message" className=' bg-[#222222] flex md:hidden border border-[#aaaa]' id="" cols="33" rows="5.5"></textarea>
                     </div>
                 </form>
-                <button className=' button-orange hover:bg-[#ff714a] text-white'>
+                <button className=' button-orange hover:bg-[#ff714a] text-white mt-2'>
                     Send Message
                 </button>
             </div>
