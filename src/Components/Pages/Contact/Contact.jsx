@@ -47,8 +47,8 @@ const Contact = () => {
                         <input className='bg-[#222222] py-2 pl-2 border border-[#aaaa]' placeholder='Your subject' type="text" name="" id="" />
                     </div>
                     <div className=' w-full md:w-[50%]'>
-                        <textarea name="Message" className=' hidden md:flex bg-[#222222] border border-[#aaaa]' id="" cols="50" rows="6.5"></textarea>
-                        <textarea name="Message" className=' bg-[#222222] flex md:hidden border border-[#aaaa]' id="" cols="33" rows="5.5"></textarea>
+                        <textarea name="Message" placeholder=' Your message . . .' className='py-2 pl-2 w-full md:w-[90%] md:h-full h-24 bg-[#222222] border border-[#aaaa]' ></textarea>
+                        {/* <textarea name="Message" className=' bg-[#222222] flex md:hidden border border-[#aaaa]' id="" cols="33" rows="5.5"></textarea> */}
                     </div>
                 </form>
                 <button className=' button-orange hover:bg-[#ff714a] text-white mt-2'>

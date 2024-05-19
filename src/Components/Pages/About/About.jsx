@@ -22,6 +22,7 @@ const About = () => {
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
+            className=' text-white'
         >
             {/* about banner section */}
             <div className=" flex flex-col md:flex-row h-full w-full">

@@ -41,7 +41,7 @@ const MainLayout = () => {
 
 const OutletScrollableContainer = ({ children }) => {
     return (
-        <div style={{ maxHeight: "calc(100vh)", overflowY: "auto" }} className=" chatScroll">
+        <div className=" max-h-full md:max-h-[calc(100vh)] overflow-y-auto chatScroll">
             {children}
         </div>
     );
