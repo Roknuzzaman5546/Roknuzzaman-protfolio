@@ -25,7 +25,7 @@ const MainLayout = () => {
                 </div>
             </div>
             <div className="flex gap-0 md:gap-[5px] ">
-                <div className={`side_bar bg-[#222222] min-h-screen w-[160px] md:min-w-[160px] z-[99999] text-white ${isSidebarOpen ? "-ml-[160px] md:ml-0" : "fixed xl-ml-[160px]"
+                <div className={`side_bar bg-[#222222] min-h-screen  w-[160px] md:min-w-[160px] z-[99999] text-white ${isSidebarOpen ? "-ml-[160px] md:ml-0" : "fixed xl-ml-[160px]"
                     }`}>
                     <Navbar />
                 </div>
