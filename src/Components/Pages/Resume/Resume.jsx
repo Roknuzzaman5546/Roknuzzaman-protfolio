@@ -213,6 +213,16 @@ const Resume = () => {
                             <div className=" w-[50%] bg-[#ff714a] p-[2px] rounded-lg"></div>
                         </div>
                     </div>
+                    {/* Laravel */}
+                    <div className=" mt-3">
+                        <div className=" flex justify-between items-center mb-1">
+                            <h2>Laravel with react</h2>
+                            <p className=" text-gray-400 text-sm  text-right">40%</p>
+                        </div>
+                        <div className=" w-full p-[2px] rounded-lg border border-[#ff714a] flex items-center">
+                            <div className=" w-[50%] bg-[#ff714a] p-[2px] rounded-lg"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div >

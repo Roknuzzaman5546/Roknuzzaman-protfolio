@@ -10,7 +10,7 @@ const Navbar = () => {
         handleScrollContact, } = useContext(AuthContext)
 
     return (
-        <div className=" w-full min-h-screen flex flex-col justify-between py-[30px]">
+        <div className=" w-full h-full flex flex-col justify-between py-[30px]">
             {/* navbar profile section */}
             <div className=" flex flex-col items-center justify-center mb-[30px]">
                 <img className=" w-[80px] max-h-[80px] object-cover rounded-lg mb-5" src="https://i.ibb.co/mTQJ4jg/portfolio.jpg" alt="" />
