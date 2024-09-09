@@ -42,21 +42,27 @@ const Navbar = () => {
                 </ul>
                 {/* Social link and copyright section */}
                 <div className="text-center w-full flex items-center justify-center gap-3 mt-[30px]">
-                    <span className=" bg-[#4444] text-[#aaaa] p-[6px] hover:bg-[#2578B4] hover:text-black">
-                        <FaTwitter></FaTwitter>
+                    <span className=" bg-[#4444] text-[#aaaa] p-[6px] hover:bg-[#2578B4] hover:text-black cursor-pointer">
+                        <a target="_blank" href="https://x.com/Roknuzzaman5546">
+                            <FaTwitter></FaTwitter>
+                        </a>
                     </span>
-                    <span className=" bg-[#4444] text-[#aaaa] p-[6px] hover:bg-[#2578B4] hover:text-black">
-                        <FaLinkedin></FaLinkedin>
+                    <span className=" bg-[#4444] text-[#aaaa] p-[6px] hover:bg-[#2578B4] hover:text-black cursor-pointer">
+                        <a target="_blank" href="https://www.linkedin.com/in/md-roknuzzaman-b794552a3/">
+                            <FaLinkedin></FaLinkedin>
+                        </a>
                     </span>
-                    <span className=" bg-[#4444] text-[#aaaa] p-[6px] hover:bg-[#2578B4] hover:text-black">
-                        <FaFacebook></FaFacebook>
+                    <span className=" bg-[#4444] text-[#aaaa] p-[6px] hover:bg-[#2578B4] hover:text-black cursor-pointer">
+                        <a target="_blank" href="https://www.facebook.com/roknujjamansajib">
+                            <FaFacebook></FaFacebook>
+                        </a>
                     </span>
                 </div>
             </div>
             {/* copyright section */}
-            <div className=" text-center mt-16 text-xs text-[#aaa]">
-                © 2021 All rights
-                reserved.
+            <div className=" text-center mt-16 text-xs text-[#aaa] pb-5">
+                All rights
+                reserved by @Roknuzzaman.
             </div>
         </div>
     );
