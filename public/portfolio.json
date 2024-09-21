@@ -329,6 +329,18 @@
           "_id": "65b3e023b48589dfcae18289"
         },
         "_id": "65b3e023b48589dfcae18288"
+      },
+      {
+        "enabled": true,
+        "name": "Laravel",
+        "sequence": 15,
+        "percentage": 60,
+        "image": {
+          "public_id": "1706287138776-slfc3e",
+          "url": "https://i.ibb.co.com/k3BcMjJ/Laravel-svg.png",
+          "_id": "65b3e023b48589dfcae18290"
+        },
+        "_id": "65b3e023b48589dfcae18288"
       }
     ],
     "youtube": [

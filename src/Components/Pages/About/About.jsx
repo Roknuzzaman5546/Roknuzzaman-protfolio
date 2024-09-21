@@ -23,10 +23,10 @@ const About = () => {
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
-            className=' text-white'
+            className=' text-white md:mt-0 mt-[58px]'
         >
             {/* about banner section */}
-            <div className=" flex flex-col md:flex-row h-full w-full">
+            <div className=" flex flex-col md:flex-row h-full w-full ">
                 <div className=" w-full md:w-[50%]">
                     <img className=" w-full h-full object-cover aspect-w-1 aspect-h-1" src="https://i.ibb.co/JpgFVxy/ROY-0012-1.jpg" alt="" />
                 </div>

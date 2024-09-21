@@ -36,7 +36,7 @@ const Skills = () => {
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
-            className=' p-5 md:p-10 min-h-screen'>
+            className=' p-5 md:p-10 min-h-screen md:mt-0 mt-[58px]'>
             {/* skills header section */}
             <h2 className='text-3xl font-bold border-b-[4px] border-[#ff714a] px-2 pb-2 text-white'>My Skills</h2>
             <h4 className=" text-right text-[#aaaa] text-xl mt-1">My skills</h4>

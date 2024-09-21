@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import './Navbar.css'
-import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { useContext } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 
@@ -53,8 +53,8 @@ const Navbar = () => {
                         </a>
                     </span>
                     <span className=" bg-[#4444] text-[#aaaa] p-[6px] hover:bg-[#2578B4] hover:text-black cursor-pointer">
-                        <a target="_blank" href="https://www.facebook.com/roknujjamansajib">
-                            <FaFacebook></FaFacebook>
+                        <a target="_blank" href="https://github.com/Roknuzzaman5546">
+                            <FaGithub></FaGithub>
                         </a>
                     </span>
                 </div>

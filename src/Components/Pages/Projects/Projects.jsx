@@ -31,7 +31,7 @@ const Projects = () => {
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
-            className=' p-5 md:p-10 min-h-screen'
+            className=' p-5 md:p-10 min-h-screen md:mt-0 mt-[58px]'
             ref={scrollProject}
         >
             {/* services header section */}
