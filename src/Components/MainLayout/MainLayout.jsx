@@ -5,10 +5,6 @@ import { FaBars } from "react-icons/fa6";
 
 const MainLayout = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-    const toggleSidebar = () => {
-        setIsSidebarOpen(!isSidebarOpen);
-        // console.log(isSidebarOpen);
-    };
 
     return (
         <>
@@ -19,8 +15,8 @@ const MainLayout = () => {
                         <img className=" w-[40px] h-[35px] object-cover rounded" src="https://i.ibb.co/mTQJ4jg/portfolio.jpg" alt="" />
                         <h2 className=" text-xl font-bold text-white overflow-hidden">Sajib</h2>
                     </div>
-                    <div onClick={toggleSidebar}>
-                        <FaBars></FaBars>
+                    <div onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+                        <FaBars className=" text-white"></FaBars>
                     </div>
                 </div>
             </div>
