@@ -41,9 +41,11 @@ const About = () => {
                         <h2 className=" text-3xl md:text-5xl italic font-serif font-bold text-white my-2">Roknuzzaman sajib</h2>
                         <p className=" text-[#d5d5d5] leading-loose ">👋
                             "Hello, I'm Roknuzzaman, a seasoned full-stack developer passionate about crafting elegant solutions. With expertise in MongoDB, Express.js, React.js, Node.js, Next.js, TypeScript, and Laravel, I specialize in building responsive and scalable web applications. My experience in designing full-stack architectures for diverse needs ensures high-quality deliverables, on time. Let's collaborate on challenging projects and transform ideas into robust, user-focused solutions."💻✨</p>
-                        <button className="button-orange hover:bg-[#ff714a] mt-3 text-white font-serif hover:text-black text-xl">
-                            <Link to='/contact'>contact</Link>
-                        </button>
+                        <Link to='/contact'>
+                            <button className="button-orange hover:bg-[#ff714a] mt-3 text-white font-serif hover:text-black text-xl ">
+                                contact
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
