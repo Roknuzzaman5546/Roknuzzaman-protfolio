@@ -17,8 +17,6 @@ const About = () => {
         });
     }, []);
 
-
-
     return (
         <div
             data-aos="zoom-in-up"
@@ -34,7 +32,7 @@ const About = () => {
                     <div className=" table-cell align-middle">
                         <TypeAnimation
                             sequence={[
-                                'Mern Stack Developer',
+                                'Full Stack Developer',
                                 500,
                             ]}
                             style={{ fontSize: '1.5em' }}
@@ -42,7 +40,7 @@ const About = () => {
                         />
                         <h2 className=" text-3xl md:text-5xl italic font-serif font-bold text-white my-2">Roknuzzaman sajib</h2>
                         <p className=" text-[#d5d5d5] leading-loose ">👋
-                            "Hello, I'm Roknuzzaman, a seasoned MERN stack developer passionate about crafting elegant solutions. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building responsive web applications that scale seamlessly. My experience in designing full-stack architectures for diverse needs ensures quality deliverables, on time. Let's collaborate on challenging projects and transform ideas into robust, user-focused solutions."💻✨</p>
+                            "Hello, I'm Roknuzzaman, a seasoned full-stack developer passionate about crafting elegant solutions. With expertise in MongoDB, Express.js, React.js, Node.js, Next.js, TypeScript, and Laravel, I specialize in building responsive and scalable web applications. My experience in designing full-stack architectures for diverse needs ensures high-quality deliverables, on time. Let's collaborate on challenging projects and transform ideas into robust, user-focused solutions."💻✨</p>
                         <button className="button-orange hover:bg-[#ff714a] mt-3 text-white font-serif hover:text-black text-xl">
                             <Link to='/contact'>contact</Link>
                         </button>
@@ -56,12 +54,12 @@ const About = () => {
                     <div className=' grid grid-cols-1 md:grid-clos-2 lg:grid-cols-3 gap-6'>
                         <div className=' flex flex-col text-center items-center space-y-2'>
                             <img className=' h-40 rounded-sm mt-2' src={frontEndImg} alt="" />
-                            <h1 className=' xl:text-2xl lg:text-xl md:text-xl text-2xl font-bold'>Front-End developer</h1>
+                            <h1 className=' xl:text-2xl lg:text-xl md:text-xl text-2xl font-bold'>Front-End development</h1>
                             <p className='w-[250px] md:text-sm text-xs text-center '>I develop the websites. create high performance website with blazing fast speed.</p>
                         </div>
                         <div className=' flex flex-col text-center items-center space-y-2'>
                             <img className=' h-40 rounded-sm mt-2' src={marnStackImg} alt="" />
-                            <h1 className=' xl:text-2xl lg:text-xl md:text-xl text-2xl font-bold'>MERN stack developer</h1>
+                            <h1 className=' xl:text-2xl lg:text-xl md:text-xl text-2xl font-bold'>Mern stack development</h1>
                             <p className='w-[250px] md:text-sm text-xs text-center'>I develop the websites. create high performance website with blazing fast speed.</p>
                         </div>
                         <div className=' flex flex-col text-center items-center space-y-2'>

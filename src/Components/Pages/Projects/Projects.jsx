@@ -31,17 +31,17 @@ const Projects = () => {
         <div
             data-aos="zoom-in-up"
             data-aos-anchor-placement="top-center"
-            className=' p-5 md:p-10 min-h-screen md:mt-0 mt-[58px]'
+            className=' p-5 md:p-10 min-h-screen md:mt-0 mt-[58px]' 
             ref={scrollProject}
         >
             {/* services header section */}
             <h2 className='text-3xl font-bold border-b-[4px] border-[#ff714a] px-2 pb-2 text-white'>My Portfolio</h2>
             <h4 className=" text-right text-[#aaaa] text-xl mt-1">My Projects</h4>
             {/* projects details */}
-            <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 mt-3">
+            <div className=" grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-5 mt-3">
                 {
                     projects?.map(item => (
-                        <div key={item._id}>
+                        <div key={item._id} className=" row-span-3">
                             <div className="cart">
                                 {/* project img and title */}
                                 <div className=" overflow-hidden relative">

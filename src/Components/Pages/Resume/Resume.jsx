@@ -24,11 +24,11 @@ const Resume = () => {
                     <div className=" flex">
                         <div className=" md:w-[30%] w-[40%] text-right border-r border-gray-300 pr-2">
                             <h2 className="font-bold">Shinygleam Software</h2>
-                            <p className=" text-gray-400 text-sm">2020,July-Present</p>
+                            <p className=" text-gray-400 text-sm">2024,July-Present</p>
                         </div>
                         <div className=" md:w-[70%] w-[60%] md:pl-5 pl-3 mb-5">
                             <h2 className=" font-bold">Jr Software Developer || Intern</h2>
-                            <p className=" text-sm text-gray-400 mt-2">As a Jr Software Developer when i join this company, From that time I am learning very well, Which helped me a lot to improve my skills।. In particular, I got a very good idea of ​​how a company should work on real projects. Although I had little prior experience in team projects, from here I am getting the best experience of working on team projects. But from here I am getting the best experience of working in team project. And the thing I learned the most is how to communicate and work together with all employees in a company. Which I think these things will be very useful in my future career
+                            <p className=" text-sm text-gray-400 mt-2">{'As a Jr Software Developer when i join this company, From that time I am learning very well, Which helped me a lot to improve my skills।. In particular, I got a very good idea of ​​how a company should work on real projects. Although I had little prior experience in team projects, from here I am getting the best experience of working on team projects. But from here I am getting the best experience of working in team project. And the thing I learned the most is how to communicate and work together with all employees in a company. Which I think these things will be very useful in my future career'}
                             </p>
                         </div>
                     </div>
